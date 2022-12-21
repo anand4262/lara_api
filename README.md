@@ -3,11 +3,11 @@
 -   Download the project from github using ``` git clone https://github.com/anand4262/lara_api.git ```
 -   Open a terminal and navigate inside of your project folder
 -   then type composer install
--   after that type cp .env.example to .env
+-   after that type ``` cp .env.example to .env ```
 -   create a databse
 -   open .env file and update DB_DATABASE, DB_USERNAME, DB_PASSWORD to your creds
--   type php artisan migrate
--   run php artisan serve in the terminal
+-   type ``` php artisan migrate ```
+-   run ``` php artisan serve ``` in the terminal
 -   test the following endpoints in postman
 
 ## API Endpoints
